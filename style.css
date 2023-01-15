@@ -1,0 +1,108 @@
+
+:root{
+  --spacing: 100px;
+}
+
+body{
+  background-color: black;
+}
+
+main{
+  position: absolute;
+  padding: 3.5%;
+}
+
+#fluxo{
+  background-color: rgb(0, 0, 0);  
+  position: fixed;
+  /* border: 1px solid rgb(255, 0, 0); */
+  position: absolute;
+  display: grid;
+  grid-template-columns: repeat( 5, 1fr);
+}
+
+section{
+  border: 5px groove rgb(139, 122, 122);
+  display: grid;
+  grid-template-columns: repeat( 5, 1fr);
+  grid-template-rows: repeat(1, 2);
+}
+
+.jupyterParallax{
+  width: 1250px;
+  background-image: url("assets/jupyter-background.webp");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+#jupyter{
+   position: relative;
+   left: 41%; 
+} 
+
+.solisParallax {
+  width: 1250px;
+  margin-left: var(--spacing);
+  background-image: url("assets/solis-background.webp");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#solis{
+  position: relative;
+   left: 10%;
+}
+
+
+
+.saturnusParallax {
+  width: 1250px;
+  margin-left: var(--spacing);
+  background-image: url("assets/saturnus-background.webp");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#saturnus{
+  position: relative;
+  top: 10%;
+  left: 30%;
+}
+
+
+.marteParallax {
+  width: 1250px;
+  margin-left: var(--spacing);
+  background-image: url("assets/marte-background.webp");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#marte{
+  position: relative;
+  top: 5%;
+  left: 23%;
+}
+
+
+.mercurioParallax {
+  width: 1250px;
+  margin-left: var(--spacing);
+  margin-right: 50px;
+  background-image: url("assets/mercurio-background.webp");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#mercurio{
+  position: relative;
+  top: 5%;
+  left: 10%;
+}
